@@ -1,4 +1,5 @@
 :root {
+  /* сделаю позже */
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -218,5 +219,9 @@ ul {
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
   border-radius: 4px;
+}
+.prtf-blocks{ 
+  text-decoration: none;
+  font-style: normal;
 }
 
