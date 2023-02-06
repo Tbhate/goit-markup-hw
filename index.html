@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Main page</title>
+    <link rel="stylesheet" href="./css/normalize.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -20,7 +21,7 @@
       <nav>
         <a class="textlogo" href="./index.html"> <span class="textlogo-one">Web</span>Studio</a>
         <ul >
-          <li ><a href="" class="header-adress">Studio</a></li>
+          <li ><a  href="" class="header-adress">Studio</a></li>
           <li ><a href="./portfolio.html" class="header-adress">Portfolio</a></li>
           <li ><a href="" class="header-adress">Contacts</a></li>
         </ul>
@@ -41,29 +42,29 @@
         <h2 hidden></h2>
         <ul>
           <li>
-            <h3>Strategy</h3>
-            <p>
+            <h3 class="subtitle">Strategy</h3>
+            <p class="text-tiny" >
               Our goal is to identify the business <br> problem to walk away with the <br>
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3>Punctuality</h3>
-            <p>
+            <h3 class="subtitle">Punctuality</h3>
+            <p class="text-tiny" >
               Bring the key message to the <br> brand's audience for the best price <br>
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3>Diligence</h3>
-            <p>
+            <h3 class="subtitle">Diligence</h3>
+            <p class="text-tiny" >
               Research and confirm brands that <br> present the strongest digital
               growth <br> opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3>Technologies</h3>
-            <p>
+            <h3 class="subtitle">Technologies</h3>
+            <p class="text-tiny" >
               Design practice focused on digital <br> experiences. We bring forth a
               deep <br> passion for problem-solving.
             </p>
@@ -73,7 +74,7 @@
       <section>
         <h2>What are we doing</h2>
         <ul>
-          <li>
+          <li class="wawd-img">
             <img
               src="./images/img-one.jpg"
               alt="cumputer"
@@ -81,7 +82,7 @@
               height="300px"
             />
           </li>
-          <li>
+          <li class="wawd-img">
             <img
               src="./images/img-two.jpg"
               alt="smartphone"
@@ -89,7 +90,7 @@
               height="300px"
             />
           </li>
-          <li>
+          <li class="wawd-img">
             <img
               src="./images/img-thre.jpg"
               alt="smartphone"
@@ -100,51 +101,38 @@
         </ul>
       </section>
       <section>
-        <h2>Our Team</h2>
-        <ul>
-          <li>
-            <img
-              src="./images/imgmark-guerrero.jpg"
-              alt="Mark-Guerrero-Designer"
-              width="264"
-              height="260"
-            />
-            <h3>Mark Guerrero</h3>
-            <p>Product Designer</p>
-          </li>
-        
-        
-          <li>
-            <img
-              src="./images/imgtom-ford.jpg"
-              alt="Tom-Ford-Frontend-Developer"
-              width="264"
-              height="260"
-            />
-            <h3>Tom Ford</h3>
-            <p>Frontend Developer</p>
-          </li>
-          <li>
-            <img
-              src="./images/imgtom-ford.jpg"
-              alt="Camila-Garcia-Marketing"
-              width="264"
-              height="260"
-            />
-            <h3>Camila Garcia</h3>
-            <p>Marketing</p>
-          </li>
-          <li>
-            <img
-              src="./images/imgdaniel-wilson.jpg"
-              alt="Daniel-Wilson-UI-Designer"
-              width="264"
-              height="260"
-            />
-            <h3>Daniel Wilson</h3>
-            <p>UI Designer</p>
-          </li>
-        </ul>
+      <div class="background-our-team">
+        <h2 class="title-second">Our Team</h2>
+          <div class="our-team-block">
+            <img class="card-foto/" src="./images/imgmark-guerrero.jpg" alt="Mark-Guerrero-Designer">
+            <div>
+              <h3 class="text-ourteam-h">Mark Guerrero</h3>
+              <p class="text-ourteam-p">Product Designer</p>
+            </div>
+          </div>
+          <div class="our-team-block">
+            <img class="card-foto" src="./images/imgtom-ford.jpg" alt="Tom-Ford-Frontend-Developer">
+            <div>
+              <h3 class="text-ourteam-h">Tom Ford</h3>
+              <p class="text-ourteam-p">Frontend Developer</p>
+            </div>
+          </div>
+          <div class="our-team-block">
+            <img class="card-foto" src="./images/imgcamila-garcia.jpg" alt="Camila-Garcia-Marketing">
+            <div>
+              <h3 class="text-ourteam-h">Camila Garcia</h3>
+              <p class="text-ourteam-p">Marketing</p>
+            </div>
+          </div>
+          <div class="our-team-block">
+            <img class="card-foto" src="./images/imgdaniel-wilson.jpg" alt="Daniel-Wilson-UI-Designer">
+            <div>
+              <h3 class="text-ourteam-h">Daniel Wilson</h3>
+              <p class="text-ourteam-p">UI Designer</p>
+            </div>
+          </div>
+        </div>
+       
       </section>
     </main>
     <footer class="footer-background"> 

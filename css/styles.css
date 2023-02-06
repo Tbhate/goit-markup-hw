@@ -1,10 +1,48 @@
 :root {
 }
-
 body {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 400;
+  line-height: 1.5;
+}
+/* main page */
+
+.subtitle {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.text-tiny {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.title-second {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+}
+.text-ourteam-h {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.1;
+}
+
+.text-ourteam-p {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -27,9 +65,21 @@ body {
   color: #4d5ae5;
   text-decoration: none;
 }
+.header-portfolio {
+  color: #404bbf;
+  font-weight: 500;
+  text-decoration: none;
+}
 
 .header-adress {
   color: #2e2f42;
+  font-weight: 500;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+.header-adress:hover {
+  color: #404bbf;
   font-weight: 500;
   text-decoration: none;
 }
@@ -40,12 +90,19 @@ body {
   text-decoration: none;
   font-style: normal;
 }
+.adress:hover {
+  color: #404bbf;
+  font-weight: 400;
+  text-decoration: none;
+  font-style: normal;
+}
 
 .main-title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
+  text-align: center;
 }
 
 ul {
@@ -54,14 +111,10 @@ ul {
 
 .main-background {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 600px;
 }
 
 .footer-background {
   background-color: #2e2f42;
-  width: 1440px;
-  height: 310px;
 }
 
 .main-button {
@@ -70,12 +123,11 @@ ul {
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  width: 169px;
-  height: 56px;
 }
 
 .main-button:hover {
   background: #404bbf;
+  cursor: pointer;
 }
 
 .text-footer {
@@ -93,14 +145,78 @@ ul {
   background: #f4f4fd;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  width: 78px;
-  height: 48px;
 }
 
 .button-portfolio:hover {
   color: #ffffff;
-  background: #404BBF;
-  border: 1px solid #404BBF;
-  box-shadow:  0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  background: #404bbf;
+  border: 1px solid #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
 }
+
+.wawd-img {
+  background: linear-gradient(
+      0deg,
+      rgba(77, 90, 229, 0.1),
+      rgba(77, 90, 229, 0.1)
+    ),
+    url(2368.jpg);
+  border: 1px solid #e7e9fc;
+  background-blend-mode: soft-light, normal;
+  width: 360px;
+  height: 300px;
+}
+
+.our-team-block {
+  width: 264px;
+  height: 380px;
+  background: #ffffff;
+  box-shadow: 0px 2px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 0px;
+}
+
+.background-our-team {
+  background: #f4f4fd;
+}
+
+.flex-card {
+  margin: 12px;
+  width: 264px;
+}
+
+.card-foto {
+}
+/* portfolio */
+.heading {
+  color: #2e2f42;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.subtitle-prt {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16;
+  line-height: 1.5;
+}
+.list-all {
+  width: 360px;
+  height: 420px;
+  background: #ffffff;
+  border: 1px solid #e7e9fc;
+}
+.button-portfolio-active{
+  color: #ffffff;
+  background: #404bbf;
+  border: 1px solid #404bbf;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  cursor: pointer;
+  border-radius: 4px;
+}
+
