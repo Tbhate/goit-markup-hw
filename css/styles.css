@@ -1,5 +1,11 @@
 :root {
-  /* сделаю позже */
+  --color-primary: #2e2f42;
+  --color-secondary: #434455;
+  --color-primary-blue: #404bbf ;
+  --color-white: #ffffff ;
+  --color-bg-image: #e7e9fc;
+  --color-text-bg: #4d5ae5;
+  --color-white-darker: #f4f4fd;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -10,7 +16,7 @@ body {
 /* main page */
 
 .subtitle {
-  color: #2e2f42;
+  color: var(--color-primary);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -18,21 +24,21 @@ body {
 }
 
 .text-tiny {
-  color: #434455;
+  color: var(--color-secondary);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
 }
 .title-second {
-  color: #2e2f42;
+  color: var(--color-primary);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
 }
 .text-ourteam-h {
-  color: #2e2f42;
+  color: var(--color-primary);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -40,7 +46,7 @@ body {
 }
 
 .text-ourteam-p {
-  color: #434455;
+  color: var(--color-secondary);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16px;
@@ -51,59 +57,58 @@ body {
   font-family: "Releway", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #434455;
+  color: var(--color-secondary);
   text-decoration: none;
 }
 .textlogo-footer {
   font-family: "Releway", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: var(--color-white-darker);
   text-decoration: none;
 }
 
 .textlogo-one {
-  color: #4d5ae5;
+  color: var(--color-text-bg);
   text-decoration: none;
 }
 .header-portfolio {
-  color: #404bbf;
+  color: var(--color-primary-blue);
   font-weight: 500;
   text-decoration: none;
 }
 
 .header-adress {
-  color: #2e2f42;
+  color: var(--color-primary);
   font-weight: 500;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
   font-weight: 400;
 }
 .header-adress:hover {
-  color: #404bbf;
+  color: var(--color-primary-blue);
   font-weight: 500;
   text-decoration: none;
 }
 
 .adress {
-  color: #434455;
+  color: var(--color-secondary);
   font-weight: 400;
   text-decoration: none;
   font-style: normal;
 }
 .adress:hover {
-  color: #404bbf;
+  color: var(--color-primary-blue);
   font-weight: 400;
   text-decoration: none;
   font-style: normal;
 }
 
 .main-title {
-  color: #ffffff;
+  color: var(--color-white);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
-  text-align: center;
 }
 
 ul {
@@ -111,28 +116,28 @@ ul {
 }
 
 .main-background {
-  background-color: #2e2f42;
+  background-color: var(--color-primary);
 }
 
 .footer-background {
-  background-color: #2e2f42;
+  background-color: var(--color-primary);
 }
 
 .main-button {
   color: white;
-  background: #4d5ae5;
+  background: var(--color-text-bg);
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
 .main-button:hover {
-  background: #404bbf;
+  background: var(--color-primary-blue);
   cursor: pointer;
 }
 
 .text-footer {
-  color: #e7e9fc;
+  color: var(--color-bg-image);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -142,16 +147,16 @@ ul {
 }
 
 .button-portfolio {
-  color: #4d5ae5;
-  background: #f4f4fd;
-  border: 1px solid #e7e9fc;
+  color: var(--color-text-bg);
+  background: var(--color-white-darker);
+  border: 1px solid var(--color-bg-image);
   border-radius: 4px;
 }
 
 .button-portfolio:hover {
-  color: #ffffff;
-  background: #404bbf;
-  border: 1px solid #404bbf;
+  color: var(--color-white);
+  background: var(--color-primary-blue);
+  border: 1px solid var(--color-primary-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
@@ -164,7 +169,7 @@ ul {
       rgba(77, 90, 229, 0.1)
     ),
     url(2368.jpg);
-  border: 1px solid #e7e9fc;
+  border: 1px solid var(--color-bg-image);
   background-blend-mode: soft-light, normal;
   width: 360px;
   height: 300px;
@@ -173,14 +178,14 @@ ul {
 .our-team-block {
   width: 264px;
   height: 380px;
-  background: #ffffff;
+  background: var(--color-white);
   box-shadow: 0px 2px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 0px;
 }
 
 .background-our-team {
-  background: #f4f4fd;
+  background: var(--color-white-darker);
 }
 
 .flex-card {
@@ -192,14 +197,14 @@ ul {
 }
 /* portfolio */
 .heading {
-  color: #2e2f42;
+  color: var(--color-primary);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
 }
 .subtitle-prt {
-  color: #434455;
+  color: var(--color-secondary);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 16;
@@ -208,13 +213,13 @@ ul {
 .list-all {
   width: 360px;
   height: 420px;
-  background: #ffffff;
-  border: 1px solid #e7e9fc;
+  background: var(--color-white);
+  border: 1px solid var(--color-bg-image);
 }
 .button-portfolio-active{
-  color: #ffffff;
-  background: #404bbf;
-  border: 1px solid #404bbf;
+  color: var(--color-white);
+  background: var(--color-primary-blue);
+  border: 1px solid var(--color-primary-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
