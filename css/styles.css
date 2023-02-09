@@ -72,7 +72,7 @@ body {
   color: var(--color-text-bg);
   text-decoration: none;
 }
-.header-portfolio {
+.header-active {
   color: var(--color-primary-blue);
   font-weight: 500;
   text-decoration: none;
@@ -83,7 +83,6 @@ body {
   font-weight: 500;
   text-decoration: none;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
 }
 .header-adress:hover {
   color: var(--color-primary-blue);
@@ -193,7 +192,8 @@ ul {
   width: 264px;
 }
 
-.card-foto {
+.main-bg-foto {
+  background-color: var(--color-white);
 }
 /* portfolio */
 .heading {
@@ -210,12 +210,7 @@ ul {
   font-size: 16;
   line-height: 1.5;
 }
-.list-all {
-  width: 360px;
-  height: 420px;
-  background: var(--color-white);
-  border: 1px solid var(--color-bg-image);
-}
+
 .button-portfolio-active{
   color: var(--color-white);
   background: var(--color-primary-blue);
@@ -225,7 +220,11 @@ ul {
   cursor: pointer;
   border-radius: 4px;
 }
-.prtf-blocks{ 
+.prtf-blocks{  
+  width: 360px;
+  height: 420px;
+  background: var(--color-white);
+  border: 1px solid var(--color-bg-image);
   text-decoration: none;
   font-style: normal;
 }
