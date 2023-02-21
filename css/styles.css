@@ -31,7 +31,7 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
-.hiden{
+.hiden {
   position: absolute;
   white-space: nowrap;
   width: 1px;
@@ -45,7 +45,7 @@ ul {
 }
 
 /* Header */
-.header{
+.header {
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -164,7 +164,7 @@ ul {
 }
 .list-hiden:nth-child(3n) {
   margin: 0;
-} 
+}
 
 .features {
   padding-top: 120px;
@@ -202,7 +202,7 @@ ul {
 }
 .ul-list-work-img {
   display: flex;
-  justify-content: center;  
+  justify-content: center;
   gap: 24px;
 }
 
@@ -223,11 +223,11 @@ ul {
 }
 
 /* Our team */
-.card-foto{
+.card-foto {
   display: block;
   max-width: 100%;
 }
-.text-our-team{
+.text-our-team {
   text-align: center;
   padding: 32px 16px;
 }
@@ -297,13 +297,13 @@ ul {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em; 
+  letter-spacing: 0.02em;
   margin-top: 16px;
   margin-bottom: 0;
 }
 
 /* portfolio */
-.portfolio-section{
+.portfolio-section {
   padding-top: 96px;
   padding-bottom: 120px;
 }
@@ -354,12 +354,12 @@ ul {
   border-radius: 4px;
   padding: 12px 24px;
 }
-.item-box{
+.item-box {
   border: 1px solid var(--color-bg-image);
   margin-right: 24px;
   margin-bottom: 48px;
 }
-.item-box:nth-child(3n){
+.item-box:nth-child(3n) {
   margin-right: 0px;
 }
 .prtf-blocks {
