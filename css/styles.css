@@ -305,6 +305,17 @@ ul {
 /* portfolio */
 .portfolio-section{
   padding-top: 96px;
+<<<<<<< HEAD
+=======
+  padding-bottom: 120px;
+}
+.ul-list-project {
+  margin-top: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -24px;
+  margin-bottom: -48px;
+>>>>>>> 72a674202bc169773bf05ccb389d2b520b6c3f8f
   padding-bottom: 120px;
 }
 .ul-list-project {
@@ -358,9 +369,12 @@ ul {
   border: 1px solid var(--color-bg-image);
   margin-right: 24px;
   margin-bottom: 48px;
+<<<<<<< HEAD
 }
 .item-box:nth-child(3n){
   margin-right: 0px;
+=======
+>>>>>>> 72a674202bc169773bf05ccb389d2b520b6c3f8f
 }
 .prtf-blocks {
   display: block;
