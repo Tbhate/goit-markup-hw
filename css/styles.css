@@ -22,7 +22,7 @@ ul {
 *::before *::after {
   box-sizing: border-box;
 }
-*{
+* {
   margin: 0;
   padding: 0;
 }
@@ -44,6 +44,10 @@ ul {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+img{
+  display: block;
+  max-width: 100%;
 }
 
 /* Header */
@@ -121,7 +125,11 @@ ul {
 .main-background {
   text-align: center;
   padding: 188px 0;
-  background-color: var(--color-primary);
+  background-color:var(--color-primary);
+  background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/people-office.jpg') ;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .main-title {
@@ -225,6 +233,17 @@ ul {
 }
 
 /* Our team */
+.socials-list{
+
+}
+
+.socials-icon{
+  width: 20px;
+  height: 20px;
+}
+
+
+
 .card-foto {
   display: block;
   max-width: 100%;
@@ -273,7 +292,11 @@ ul {
 }
 
 /* Footer */
+.footer-item{
+  display: flex;
+  gap: 120px;
 
+}
 .footer-box {
   max-width: 264px;
 }
@@ -300,6 +323,13 @@ ul {
   margin-top: 16px;
   margin-bottom: 0;
 }
+.text-footer-soc{
+  font-family: "Roboto";
+  font-weight: 500;
+  color: var(--color-white);
+  font-size: 16px;
+  line-height: 1.5;
+}
 
 /* portfolio */
 .portfolio-section {
@@ -317,6 +347,7 @@ ul {
 .text-prtf-blocks {
   padding: 32px 16px;
 }
+
 
 .ul-list-prtf-button {
   gap: 24px;
@@ -336,7 +367,7 @@ ul {
   color: var(--color-secondary);
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 16;
+  font-size: 16px;
   line-height: 1.5;
   margin-top: 0;
   margin-bottom: 0;
