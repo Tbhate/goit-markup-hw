@@ -50,6 +50,7 @@ img{
   max-width: 100%;
 }
 
+
 /* Header */
 .header {
   border-bottom: 1px solid #e7e9fc;
@@ -163,6 +164,9 @@ img{
 
 /* Features */
 .features-visual{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .icon-features{
   display:block;
@@ -197,6 +201,7 @@ img{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  margin-top: 32px;
 }
 
 .text-tiny {
@@ -327,9 +332,10 @@ img{
   box-shadow: 0px 1px 6px rgb(46 47 66 / 8%), 0px 1px 1px rgb(46 47 66 / 16%), 0px 2px 1px rgb(46 47 66 / 8%);
 }
 /* Customers */
-.customers{
-  padding-bottom: 120px; 
+.customers-section{
+ padding-bottom: 120px ;
 }
+
 .customers-header{
   text-align: center;
   margin-top: 120px;
@@ -346,7 +352,7 @@ img{
   margin-top: 72px;
 }
 .customers-item{
-  width: 168px;
+  width: calc((100% - 120px) / 6) ;
   height: 88px;
 }
 .customers-link{
@@ -355,11 +361,10 @@ img{
   justify-content: center;
   width: 100%;
   height: 100%;
-  height: 88px;
   border-radius: 4px;
   color: #8E8F99;
   border: 1px solid #8E8F99;
-  transition-property: color,;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -372,6 +377,8 @@ img{
   width: 104px;
   height: 56px;
   fill: currentColor;
+}
+.icons-svg{
 }
 
 
