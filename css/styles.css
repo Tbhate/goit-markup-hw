@@ -92,6 +92,9 @@ img{
   font-family: "Roboto", sans-serif;
   padding: 24px 0;
   line-height: 1.5;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .header-adress:hover {
   color: var(--color-primary-blue);
@@ -114,6 +117,9 @@ img{
   display: block;
   padding: 24px 0;
   margin: 0;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress:hover {
   color: var(--color-primary-blue);
@@ -167,6 +173,10 @@ img{
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #F4F4FD;
+  border-radius: 4px; 
+  width: 264px;
+  margin-bottom: 8px;
 }
 .icon-features{
   display:block;
@@ -201,7 +211,6 @@ img{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  margin-top: 32px;
 }
 
 .text-tiny {
@@ -266,7 +275,7 @@ img{
   height: 100%;
   background-color: var(--color-text-bg) ; 
   border-radius: 50%;
-  transition-property: color,;
+  transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -333,12 +342,11 @@ img{
 }
 /* Customers */
 .customers-section{
- padding-bottom: 120px ;
+ padding: 120px 0;
 }
 
 .customers-header{
   text-align: center;
-  margin-top: 120px;
   font-family: 'Roboto';
   font-weight: 700;
   font-size: 36px;
@@ -370,7 +378,7 @@ img{
 }
 .customers-link:hover{
   color: var(--color-primary-blue);
-  border: 1px solid var(--color-primary-blue);
+  border-color: 1px solid var(--color-primary-blue);
 }
 
 .customers-icon{
@@ -391,12 +399,11 @@ img{
   height: 100%;
   background: rgba(255, 255, 255, 0.1); 
   border-radius: 50%;
-  transition-property: color,;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .socials-link-second:hover{
-  background: #31D0AA;
+  background-color: #31D0AA;
 }
 .socials-list-second{
   display: flex;
