@@ -390,7 +390,7 @@ img{
   border-radius: 4px;
   color: #8E8F99;
   border: 1px solid #8E8F99;
-  transition-property: color;
+  transition-property: color, border;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -582,7 +582,7 @@ img{
   border: 1px solid var(--color-bg-image);
   border-radius: 4px;
   padding: 12px 24px;
-  transition-property: background-color, border;
+  transition-property: background-color, border, box-shadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
