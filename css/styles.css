@@ -170,6 +170,9 @@ img{
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   padding: 16px 32px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .main-button:hover {
@@ -290,7 +293,7 @@ img{
   height: 100%;
   background-color: var(--color-text-bg) ; 
   border-radius: 50%;
-  transition-property: color;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -414,6 +417,7 @@ img{
   height: 100%;
   background: rgba(255, 255, 255, 0.1); 
   border-radius: 50%;
+  transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -523,6 +527,10 @@ img{
   margin-bottom: 48px;
   max-width: 360px;
 }
+ 
+.item-box:hover{
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
 
 .description-animation{
   position: relative;
@@ -540,7 +548,7 @@ img{
   transform: translateY(100%);
   transition: transform 250ms;  
 }
-.description-animation:hover .ul-list-description{
+.prtf-blocks:hover .ul-list-description{
   transform: translateY(0);
 }
 
@@ -565,6 +573,8 @@ img{
   background: var(--color-white);
   text-decoration: none;
   font-style: normal;
+  position: relative;
+  overflow: hidden;
 }
 .button-portfolio {
   color: var(--color-text-bg);
@@ -572,6 +582,9 @@ img{
   border: 1px solid var(--color-bg-image);
   border-radius: 4px;
   padding: 12px 24px;
+  transition-property: background-color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-portfolio:hover {
   color: var(--color-white);
@@ -579,7 +592,6 @@ img{
   border: 1px solid var(--color-primary-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  cursor: pointer;
 }
 
 /* Modal */
