@@ -528,7 +528,7 @@ img {
 
 .emile-input:focus-visible {
   border-radius: 4px;
-  border-color: 1px solid rgba(255, 255, 255, 0.3);
+  border-color: 1px solid  rgba(255, 255, 255, 0.6);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--color-white-darker);
 }
