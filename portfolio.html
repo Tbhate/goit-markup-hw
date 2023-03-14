@@ -330,24 +330,24 @@
           </ul>
         </div>
         <div>
-          <h2 class="text-footer-soc">Subscribe</h2>
-          <div class="footer-box-item">
-            
-            <input class="emile-input" type="email" placeholder="E-mail"/>
+          <p class="text-footer-soc">Subscribe</p>
+          <form class="subscribe-form" name="subscribe-form" autocomplete="on">
+            <input
+              class="emile-input"
+              type="email"
+              placeholder="E-mail"
+              id="emile"
+              required
+            />
+            <label for="emile"></label>
 
-
-            <button class="footer-button " type="submit">
-              <div class="footer-button-text">
-                <p>Subscribe</p>
-                <svg class="socials-icon Subscribe-telegram">
-                  <use href="./images/icons.svg#icon-icon-send"></use>
-                </svg>
-              </div>
-            
+            <button class="footer-button" type="submit">
+              <p>Subscribe</p>
+              <svg class="socials-icon Subscribe-telegram">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
             </button>
-
-          </div>
-
+          </form>
         </div>
       </div>
     </footer>
