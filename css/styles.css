@@ -522,8 +522,7 @@ img {
 
 .emile-input:focus {
   border-radius: 4px;
-  border: 1px solid var(--color-white-darker);
-  background-color: var(--color-secondary);
+  border: 1px solid var(--color-text-bg);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   color: var(--color-white-darker);
 }
@@ -682,8 +681,7 @@ img {
 .form-icon {
   position: absolute;
   top: 40px;
-  left: 0;
-  margin-left: 16px;
+  left: 16px;
   fill: var(--color-primary);
   transform: translateY(-50%);
 }
@@ -759,12 +757,11 @@ img {
 }
 
 .modal {
-  padding: 72px 24px;
+  padding: 72px 24px 24px 24px;
   position: relative;
   overflow: hidden;
   width: 100%;
   max-width: 408px;
-  height: 584px;
   background-color: #fcfcfc;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12),
     0px 2px 1px rgba(0, 0, 0, 0.2);
