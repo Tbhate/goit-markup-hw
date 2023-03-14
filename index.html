@@ -437,37 +437,28 @@
         </div>
         <div>
           <p class="text-footer-soc">Subscribe</p>
-          <div class="footer-box-item">
-            <form
-              class="subscribe-form"
-              name="subscribe-form"
-              autocomplete="on"
-            >
-              <div>
-                <input
-                  class="emile-input"
-                  type="email"
-                  placeholder="E-mail"
-                  id="emile"
-                  required
-                />
-                <label for="emile"></label>
-              </div>
-              <button class="footer-button" type="submit">
-                <div class="footer-button-text">
-                  <p>Subscribe</p>
-                  <svg class="socials-icon Subscribe-telegram">
-                    <use href="./images/icons.svg#icon-icon-send"></use>
-                  </svg>
-                </div>
-              </button>
-            </form>
-          </div>
+          <form class="subscribe-form" name="subscribe-form" autocomplete="on">
+            <input
+              class="emile-input"
+              type="email"
+              placeholder="E-mail"
+              id="emile"
+              required
+            />
+            <label for="emile"></label>
+
+            <button class="footer-button" type="submit">
+              <p>Subscribe</p>
+              <svg class="socials-icon Subscribe-telegram">
+                <use href="./images/icons.svg#icon-icon-send"></use>
+              </svg>
+            </button>
+          </form>
         </div>
       </div>
     </footer>
 
-    <div class="backdrop is-hidden " data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close" data-modal-close>
           <svg class="close-button">
@@ -477,77 +468,78 @@
         <p class="modal-header">
           Leave your contacts and we will call you back
         </p>
-        <form class="form-information" autocomplete="on" novalidate>
-          <div class="form-content">
-            <div class="contacts-form">
-              <label class="form-label" for="user-name">Name</label>
-              <input
-                class="form-input"
-                id="user-name"
-                type="text"
-                name="user-name"
-              />
-              <svg class="form-icon" height="20" width="20">
-                <use href="./images/icons.svg#icon-person"></use>
+        <form class="form-information" autocomplete="on">
+          <label class="form-label" for="user-name">
+            <p class="form-subtitle">Name</p>
+            <input
+              class="form-input"
+              id="user-name"
+              type="text"
+              name="user-name"
+            />
+            <svg class="form-icon" height="20" width="20">
+              <use href="./images/icons.svg#icon-person"></use>
+            </svg>
+          </label>
+
+          <label class="form-label" for="user-tel">
+            <p class="form-subtitle">Phone</p>
+            <input
+              class="form-input"
+              id="user-tel"
+              type="tel"
+              name="user-tel"
+            />
+            <svg class="form-icon" height="20" width="20">
+              <use href="./images/icons.svg#icon-phone"></use>
+            </svg>
+          </label>
+
+          <label class="form-label" for="user-email">
+            <p class="form-subtitle">Email</p>
+            <input
+              class="form-input"
+              id="user-email"
+              type="email"
+              name="user-email"
+            />
+            <svg class="form-icon" height="20" width="20">
+              <use href="./images/icons.svg#icon-email"></use>
+            </svg>
+          </label>
+
+          <label class="form-label" for="user-comment">Comment</label>
+          <textarea
+            class="comment"
+            name="user-comment"
+            id="user-comment"
+            placeholder="Text input"
+          ></textarea>
+
+          <div class="flex-checkbox">
+            <input
+              class="input-check"
+              id="checkbox"
+              type="checkbox"
+              name="input-check"
+            />
+            <span class="span-check">
+              <svg class="modal-form-checkbox-icon">
+                <use href="./images/icons.svg#icon-checkbox"></use>
               </svg>
-            </div>
-
-            <div class="contacts-form">
-              <label class="form-label" for="user-tel">Phone</label>
-              <input
-                class="form-input"
-                id="user-tel"
-                type="tel"
-                name="user-tel"
-              />
-              <svg class="form-icon" height="20" width="20">
-                <use href="./images/icons.svg#icon-phone"></use>
-              </svg>
-            </div>
-
-            <div class="contacts-form">
-              <label class="form-label" for="user-email">Email</label>
-              <input
-                class="form-input"
-                id="user-email"
-                type="email"
-                name="user-email"
-              />
-              <svg class="form-icon" height="20" width="20">
-                <use href="./images/icons.svg#icon-email"></use>
-              </svg>
-            </div>
-
-            <div class="contacts-form">
-              <label class="form-label" for="user-comment">Comment</label>
-              <textarea
-                class="comment"
-                name="user-comment"
-                id="user-comment"
-                placeholder="Text input"
-              ></textarea>
-            </div>
-
-            <div class="flex-checkbox">
-              <input class="input-check" id="checkbox" type="checkbox" name="input-check" />
-              <span class="span-check">
-                <svg class="modal-form-checkbox-icon">
-                  <use href="./images/icons.svg#icon-checkbox"></use>
-                </svg>
-              </span>
-              <label for="checkbox" class="label-checkbox">
-                I accept the terms and conditions of the
-                <a class="privacy-policy" href="#">Privacy Policy</a>
-              </label>
-            </div>
-            <button
-              class="main-button modal-button"
-              type="submit"
-              data-modal-open
-            >
-              Send
-            </button>
+            </span>
+            <label for="checkbox" class="label-checkbox">
+              I accept the terms and conditions of the
+              <a class="privacy-policy" href="#">Privacy Policy</a>
+            </label>
           </div>
+          <button
+            class="main-button modal-button"
+            type="submit"
+            data-modal-open
+          >
+            Send
+          </button>
         </form>
       </div>
     </div>
