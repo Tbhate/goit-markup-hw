@@ -879,7 +879,7 @@ img {
   border: 1px solid var(--color-bg-image);
   margin-right: 24px;
   margin-bottom: 48px;
-  max-width: 360px;
+  max-width: 396px;
 }
 
 .item-box:hover {
@@ -888,6 +888,7 @@ img {
 }
 @media (min-width: 768px){
   .item-box {
+    max-width: 360px;
     flex-basis: calc((100% - 24px) / 2);
     margin-bottom: 72px;
     margin-right: 24px;
@@ -901,7 +902,15 @@ img {
 
   }
 }
-
+.prtf-size{
+  widows: 356px;
+  height: 300px;
+}
+@media (min-width: 1158px){
+  .prtf-size{
+    widows: 360px;
+  }
+}
 .ul-list-project {
   margin-top: 72px;
   display: flex;
