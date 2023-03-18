@@ -310,9 +310,14 @@ img {
 }
 
 /* Effective Solutions for Your Business */
+.first-section{
+  
+}
+
 .main-background {
   text-align: center;
   padding: 188px 0;
+  max-width: 1440px;
   background-color: var(--color-primary);
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -320,7 +325,7 @@ img {
     ),
     url("../images/people-office.jpg");
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
   background-size: cover;
 }
 
