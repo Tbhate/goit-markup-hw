@@ -232,7 +232,7 @@ img {
   left: 0;
   padding: 80px 35px 40px 40px;
   transform: translateX(100%);
-  transition: transform 1s;
+  transition: transform 555ms;
 }
 
 .menu-mobile.is-open {
@@ -311,7 +311,7 @@ img {
 
 /* Effective Solutions for Your Business */
 .first-section{
-  
+
 }
 
 .main-background {
@@ -742,7 +742,7 @@ img {
 
 .footer-item {
   display: flex;
-  
+ 
 }
 @media (max-width: 1158px){
   .footer-item{
