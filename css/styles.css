@@ -882,6 +882,18 @@ img {
   max-width: 396px;
 }
 
+.item-box:nth-child(3n) {
+  margin-right: 0px;
+}
+@media (max-width: 1158px) {
+  .item-box:nth-child(2n) {
+    margin-right: 0px;
+  }
+  .item-box:nth-child(3n) {
+    margin-right: 18px;
+  }
+}
+
 .item-box:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -891,9 +903,6 @@ img {
     max-width: 360px;
     flex-basis: calc((100% - 24px) / 2);
     margin-bottom: 72px;
-    margin-right: 24px;
-  }
-  .item-box:nth-child(3n) {
     margin-right: 24px;
   }
 }
@@ -932,11 +941,13 @@ img {
 .ul-list-prtf-button {
   gap: 24px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: left;
+
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
   .ul-list-prtf-button {
-    flex-wrap: wrap;
+    justify-content: center;
   }
 }
 .heading {
@@ -1001,9 +1012,7 @@ img {
   font-family: "Robot", sans-serif;
 }
 
-.item-box:nth-child(3n) {
-  margin-right: 0px;
-}
+
 .prtf-blocks {
   display: block;
   background: var(--color-white);
