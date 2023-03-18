@@ -422,14 +422,23 @@ img {
   margin-top: 0;
   margin-bottom: 8px;
   color: var(--color-primary);
+  text-align: center;
   font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 1.2;
 }
-@media (max-width: 768px){
+@media (min-width: 768px){
   .subtitle{
-    text-align: center;
+  text-align: left;
+  }
+}
+@media (min-width: 1158px){
+  .subtitle{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
   }
 }
 
@@ -880,6 +889,8 @@ img {
 @media (min-width: 768px){
   .item-box {
     flex-basis: calc((100% - 24px) / 2);
+    margin-bottom: 72px;
+    margin-right: 24px;
   }
   .item-box:nth-child(3n) {
     margin-right: 24px;
